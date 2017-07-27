@@ -23,8 +23,8 @@ p.two{
   font-family: Times;
   font-size: 3em;
   font-style: italic;
-  font-variant: small-caps;
-  font-weight: bold;
+  font-variant: none;
+  font-weight: none;
 
 /*   This alters border, padding and background color. */
   font-size: 20px;
@@ -37,6 +37,7 @@ p.two{
 
 /* This is example code from the IY. */
 
+/* This controls the blue boxes. */
 div.b {
   height: 30px;
   border: 2px solid #6320ee;
@@ -72,3 +73,88 @@ div.ib:nth-of-type(6) {
 div.ib:nth-of-type(7) {
   width: 55%;
 }
+
+
+/* This controls the items in the first grey box. */
+.container{
+  background-color: grey;
+  border: 2px solid black;
+  padding-bottom: 85px;
+  width: 100%;
+  margin-top: 20px;
+}
+/* This makes the image in the grey box float right. */
+.container img, .container2 img {
+  float: right;
+}
+
+
+/* This controls the items in the second grey box. */
+.container2{
+  background-color: grey;
+  border: 2px solid black;
+  padding-bottom: 85px;
+  width: 100%;
+  height:300px;
+  margin-top: 20px;
+}
+p.clear {
+  margin-top: 0px;
+  float:right;
+  clear:right;
+  width:150px;
+  padding: 0px;
+}
+
+
+/* This controls the third container. */
+.container3{
+  background-color: grey;
+  border: 2px solid black;
+  padding-bottom: 85px;
+  width: 100%;
+  margin-top: 20px;
+/*   Clearfix hack */
+/* This makes the container stretch to contain the image. */
+  overflow: auto;
+  zoom: 1;
+}
+#righty {
+  float: right;
+}
+#lefty {
+  float: left;
+}
+#center-ish {
+  margin-left: 35%;
+}
+
+/* This demonstrate border box from IY. */
+div {
+/*   This is the important line. */
+  box-sizing: border-box;
+}
+.left {
+  float: left;
+  border: 1px dashed blue;
+  padding: 1em;
+  background-color: pink;
+  width: 20%;
+}
+.center {
+  float: left;
+  background-color: lightgreen;
+  padding: 2em;
+  width: 65%;
+}
+.right {
+  float: left;
+  background-color: goldenrod;
+  width: 15%;
+  padding: 0.5em;
+  border: 5px solid red;
+}
+
+
+
+ 
