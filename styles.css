@@ -1,0 +1,74 @@
+p.one{
+/*   This changes the text in p. */
+  font-family: Times;
+  font-size: 3em;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: bold;
+
+/*   This alters border, padding and background color. */
+  background-color: grey;
+  border: 2px solid blue;
+  padding: 0px;
+  width: 50%;
+}
+
+
+wrapper{
+
+}
+
+p.two{
+/*   This changes the text in p. */
+  font-family: Times;
+  font-size: 3em;
+  font-style: italic;
+  font-variant: small-caps;
+  font-weight: bold;
+
+/*   This alters border, padding and background color. */
+  font-size: 20px;
+  width: 275px;
+  border: 2px dotted red;
+  padding: 4px;
+}
+
+
+
+/* This is example code from the IY. */
+
+div.b {
+  height: 30px;
+  border: 2px solid #6320ee;
+}
+
+div.ib {
+  display: inline-block;
+  width: 30%;
+  height: 30px;
+  border: 2px solid #6320ee;
+}
+
+div.ib:nth-of-type(2) {
+  width: 20%;
+}
+
+div.ib:nth-of-type(3) {
+  width: 10%;
+}
+
+div.ib:nth-of-type(4) {
+  width: 70%;
+}
+
+div.ib:nth-of-type(5) {
+  width: 20%;
+}
+
+div.ib:nth-of-type(6) {
+  width: 40%;
+}
+
+div.ib:nth-of-type(7) {
+  width: 55%;
+}
